@@ -108,6 +108,15 @@ const Footer = class extends React.Component {
           </div>
         </div>
       </footer>
+      <script type="text/javascript">
+      window._mfq = window._mfq || [];
+      (function() {
+        var mf = document.createElement("script");
+        mf.type = "text/javascript"; mf.defer = true;
+        mf.src = "//cdn.mouseflow.com/projects/c3efb18e-9ab2-45c5-a3bc-3ff95582b013.js";
+        document.getElementsByTagName("head")[0].appendChild(mf);
+      })();
+      </script>
     );
   }
 };
