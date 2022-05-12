@@ -18,7 +18,7 @@ export const BlogPostTemplate = ({
   const PostContent = contentComponent || Content;
 
   return (
-    <section className="section">
+    <><section className="section">
       {helmet || ""}
       <div className="container content">
         <div className="columns">
@@ -43,7 +43,15 @@ export const BlogPostTemplate = ({
           </div>
         </div>
       </div>
-    </section>
+    </section><script type="text/javascript">
+        window._mfq = window._mfq || [];
+        (function() { }
+        var mf = document.createElement("script");
+        mf.type = "text/javascript"; mf.defer = true;
+        mf.src = "//cdn.mouseflow.com/projects/c633f3f6-56cf-4758-ad2d-98b419bd09c9.js";
+        document.getElementsByTagName("head")[0].appendChild(mf);
+        )();
+      </script></>
   );
 };
 
